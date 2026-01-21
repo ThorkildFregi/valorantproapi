@@ -18,7 +18,7 @@ from api.raspConnection import Connection, create_ports
 
 --------------------------
 
-Pour créer des ports virtuels, il suffit de créer une variable qui appelle [create_ports](#create_ports-(Fonction)) avec en argument deux noms de ports sous la forme ```/tmp/ttyVX``` où ``X`` est un nombre.
+Pour créer des ports virtuels, il suffit de créer une variable qui appelle [create_ports](#create_ports-(fonction)) avec en argument deux noms de ports sous la forme ```/tmp/ttyVX``` où ``X`` est un nombre.
 
 ```python
 proc = create_ports("/tmp/ttyV0", "/tmp/ttyV1")
